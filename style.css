@@ -1,0 +1,12 @@
+body {
+    font-family: 'Advent Pro';
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Advent Pro';
+}

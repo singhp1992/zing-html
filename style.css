@@ -16,3 +16,7 @@ body {
 a:link {
   text-decoration-line: none;
 }
+
+a:hover {
+  color: lightskyblue;
+}

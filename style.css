@@ -25,3 +25,7 @@ a:link {
 a:hover {
   color: lightskyblue;
 }
+
+footer {
+  text-align: center;
+}

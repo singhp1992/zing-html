@@ -2,6 +2,10 @@ body {
     font-family: 'Advent Pro';
 }
 
+h2 {
+  text-align: center;
+}
+
 .nav {
   display: flex;
   border-bottom: 2px solid lightslategray;
@@ -11,6 +15,7 @@ body {
   margin: 0 auto;
   padding: 0;
   font-family: 'Advent Pro';
+  color: black;
 }
 
 a:link {

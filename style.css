@@ -12,3 +12,7 @@ body {
   padding: 0;
   font-family: 'Advent Pro';
 }
+
+a:link {
+  text-decoration-line: none;
+}

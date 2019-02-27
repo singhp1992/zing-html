@@ -5,6 +5,7 @@ body {
 .nav {
   display: flex;
   border-bottom: 2px solid lightgrey;
+  border-top: 2px solid lightgrey;
   justify-content: space-around;
   list-style-type: none;
   margin: 0 auto;

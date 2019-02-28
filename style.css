@@ -15,7 +15,10 @@ h2 {
   margin: 0 auto;
   padding: 0;
   font-family: 'Advent Pro';
-  color: black;
+}
+
+a {
+  color: rgb(103, 103, 253);
 }
 
 a:link {
@@ -27,5 +30,9 @@ a:hover {
 }
 
 footer {
+  text-align: center;
+}
+
+p {
   text-align: center;
 }

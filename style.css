@@ -55,4 +55,6 @@ p {
   text-align: center;
   margin-left: 15%;
   margin-right: 15%;
+  border: 2px solid lightslategray;
+  padding: 20px;
 }

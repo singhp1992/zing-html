@@ -20,6 +20,7 @@ h2 {
 
 a:link {
   text-decoration-line: none;
+  color: black;
 }
 
 a:hover {
@@ -27,5 +28,9 @@ a:hover {
 }
 
 footer {
+  text-align: center;
+}
+
+p {
   text-align: center;
 }

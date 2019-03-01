@@ -58,3 +58,7 @@ p {
   border: 2px solid lightslategray;
   padding: 20px;
 }
+
+.contact-info {
+  padding-top: 15%;
+}

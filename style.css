@@ -91,4 +91,5 @@ ol li {
   text-align: center;
   list-style-position: inside;
   list-style-type: decimal;
+  padding: 10px;
 }

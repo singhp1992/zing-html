@@ -82,3 +82,11 @@ h6 {
   list-style-type: none;
   padding-right: 10%;
 }
+
+ol {
+  text-align: center;
+}
+
+ol li {
+  text-align: center;
+}

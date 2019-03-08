@@ -84,14 +84,8 @@ ol li {
 
 .started {
   float: right;
-   text-align: center;
-  width: 200px;
-}
-
-.about {
-  float: left;
   text-align: center;
-  width: 200px;
+  width: 400px;
 }
 
 .founders {
@@ -99,5 +93,5 @@ ol li {
   margin-left: 15%;
   margin-right: 15%;
   border: 2px solid lightslategray;
-  padding: 20px;
+  width: 400px;
 }

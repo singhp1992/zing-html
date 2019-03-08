@@ -55,14 +55,6 @@ h6 {
   text-align: center;
 }
 
-.founders {
-  text-align: center;
-  margin-left: 15%;
-  margin-right: 15%;
-  border: 2px solid lightslategray;
-  padding: 20px;
-}
-
 .contact-info {
   padding-top: 15%;
 }
@@ -100,4 +92,12 @@ ol li {
   float: left;
   text-align: center;
   width: 200px;
+}
+
+.founders {
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  border: 2px solid lightslategray;
+  padding: 20px;
 }

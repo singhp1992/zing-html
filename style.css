@@ -47,10 +47,6 @@ footer {
     overflow: hidden;
 }
 
-p {
-  text-align: center;
-}
-
 h4 {
   text-align: center;
 }
@@ -92,4 +88,16 @@ ol li {
   list-style-position: inside;
   list-style-type: decimal;
   padding: 10px;
+}
+
+.started {
+  float: right;
+   text-align: center;
+  width: 200px;
+}
+
+.about {
+  float: left;
+  text-align: center;
+  width: 200px;
 }

@@ -1,17 +1,9 @@
+* {
+  text-align: center;
+}
+
 body {
     font-family: 'Advent Pro';
-}
-
-h1 {
-  text-align: center;
-}
-
-h2 {
-  text-align: center;
-}
-
-h3 {
-  text-align: center;
 }
 
 .nav {

@@ -37,14 +37,6 @@ footer {
    text-align: center;
 }
 
-h4 {
-  text-align: center;
-}
-
-h6 {
-  text-align: center;
-}
-
 .contact-info {
   padding-top: 15%;
 }
@@ -61,10 +53,6 @@ h6 {
   padding-right: 10%;
 }
 
-ol {
-  text-align: center;
-}
-
 ol li {
   text-align: center;
   list-style-position: inside;
@@ -72,16 +60,28 @@ ol li {
   padding: 10px;
 }
 
-.started {
+/* .started {
   float: right;
   text-align: center;
   width: 400px;
   margin: 0 15px;
   border: 2px solid lightslategray;
+} */
+
+/* .founders {
+  text-align: center;
+  margin: 0 15px;
+  border: 2px solid lightslategray;
+  width: 400px;
+} */
+
+.started {
+  margin: 0 15px;
+  border: 2px solid lightslategray;
+  width: 400px;
 }
 
 .founders {
-  text-align: center;
   margin: 0 15px;
   border: 2px solid lightslategray;
   width: 400px;

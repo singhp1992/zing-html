@@ -86,6 +86,8 @@ ol li {
   float: right;
 }
 
+/* the width property is pushing everything to the right (hence float issue) */
+
 .list {
   margin: 10px 10px;
 }

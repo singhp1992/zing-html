@@ -83,7 +83,8 @@ ol li {
 .founders {
   margin: 0 15px;
   border: 2px solid lightslategray;
-  float: right;
+  width: 30%;
+  text-align: center;
 }
 
 /* the width property is pushing everything to the right (hence float issue) */

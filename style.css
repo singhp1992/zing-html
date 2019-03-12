@@ -86,3 +86,7 @@ ol li {
   border: 2px solid lightslategray;
   width: 400px;
 }
+
+.list {
+  margin-top: 100px;
+}

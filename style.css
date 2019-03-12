@@ -76,7 +76,7 @@ ol li {
 } */
 
 .started {
-  margin: auto;
+  margin: 1em auto;
   border: 2px solid lightslategray;
   width: 35%;
 }

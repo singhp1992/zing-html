@@ -83,6 +83,7 @@ ol li {
 .founders {
   margin: 0 15px;
   border: 2px solid lightslategray;
+  float: right;
 }
 
 .list {

@@ -78,11 +78,16 @@ ol li {
 .started {
   margin: 0 15px;
   border: 2px solid lightslategray;
-  width: 400px;
 }
 
 .founders {
   margin: 0 15px;
   border: 2px solid lightslategray;
-  width: 400px;
+  float: right;
+}
+
+/* the width property is pushing everything to the right (hence float issue) */
+
+.list {
+  margin: 10px 10px;
 }

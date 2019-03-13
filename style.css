@@ -89,3 +89,11 @@ ol li {
   display: table;
   clear: both;
 }
+
+.group {
+  width: 900px;
+  box-sizing: border-box;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: inline-block;
+}

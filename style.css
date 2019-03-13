@@ -60,37 +60,32 @@ ol li {
   padding: 10px;
 }
 
-/* .started {
-  float: right;
-  text-align: center;
-  width: 400px;
-  margin: 0 15px;
-  border: 2px solid lightslategray;
-} */
-
-/* .founders {
-  text-align: center;
-  margin: 0 15px;
-  border: 2px solid lightslategray;
-  width: 400px;
-} */
-
 .started {
-  margin: 1em auto;
+  margin: 1em 2em;
   border: 2px solid lightslategray;
-  width: 35%;
+  width: 25%;
+  float: right;
 }
 
 .founders {
-  margin: auto;
+  margin: 1em 2em;
   border: 2px solid lightslategray;
-  width: 30%;
+  width: 25%;
   text-align: center;
   padding: 10px 10px;
+  float: left;
 }
 
 /* the width property is pushing everything to the right (hence float issue) */
 
 .list {
   margin: 10px 10px;
+}
+
+/* ClearFix */
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
 }

@@ -76,9 +76,9 @@ ol li {
 }
 
 .beliefs {
-  margin: 1em 2em;
   border: 2px solid lightslategray;
-  width: 25%;
+  margin: 1em 2em;
+  display: inline-block;
 }
 
 /* the width property is pushing everything to the right (hence float issue) */

@@ -94,3 +94,11 @@ ol li {
 .list {
   margin: 10px 10px;
 }
+
+/* ClearFix */
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}

@@ -61,16 +61,16 @@ ol li {
 }
 
 .started {
-  margin: 1em auto;
+  margin: 1em 2em;
   border: 2px solid lightslategray;
-  width: 35%;
+  width: 25%;
   float: right;
 }
 
 .founders {
-  margin: 1em auto;
+  margin: 1em 2em;
   border: 2px solid lightslategray;
-  width: 30%;
+  width: 25%;
   text-align: center;
   padding: 10px 10px;
   float: left;

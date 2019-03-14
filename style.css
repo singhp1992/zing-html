@@ -17,6 +17,12 @@ body {
   font-family: 'Advent Pro';
 }
 
+.intro {
+  border: 2px solid lightslategray;
+  display: inline-block;
+  width: 700px;
+}
+
 a {
   color: lightslategray;
 }
@@ -103,10 +109,4 @@ ol li {
   padding-left: 100px;
   padding-right: 100px;
   display: inline-block;
-}
-
-.intro {
-  border: 2px solid lightslategray;
-  display: inline-block;
-  width: 900px;
 }

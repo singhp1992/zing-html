@@ -36,6 +36,13 @@ a:hover {
   color: lightskyblue;
 }
 
+.products {
+  border: 2px solid lightslategray;
+  display: inline-block;
+  width: 700px;
+  margin-top: 1em;
+}
+
 footer {
    position:absolute;
    bottom:0;

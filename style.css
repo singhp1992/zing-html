@@ -107,4 +107,6 @@ ol li {
 
 .intro {
   border: 2px solid lightslategray;
+  display: inline-block;
+  width: 900px;
 }

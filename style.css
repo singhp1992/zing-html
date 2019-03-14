@@ -104,3 +104,7 @@ ol li {
   padding-right: 100px;
   display: inline-block;
 }
+
+.intro {
+  border: 2px solid lightslategray;
+}

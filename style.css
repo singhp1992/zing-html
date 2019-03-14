@@ -50,7 +50,9 @@ footer {
 }
 
 .contact-info {
-  padding-top: 15%;
+  margin-top: 15%;
+  border: 2px solid lightslategray;
+  display: inline-block;
 }
 
 .preetis-box {

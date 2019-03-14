@@ -1,9 +1,6 @@
-* {
-  text-align: center;
-}
-
 body {
     font-family: 'Advent Pro';
+    text-align: center;
 }
 
 .nav {
@@ -41,6 +38,7 @@ a:hover {
   display: inline-block;
   width: 200px;
   margin-top: 1em;
+  font-size: 1.5em;
 }
 
 footer {
@@ -48,6 +46,7 @@ footer {
    bottom:0;
    width:100%;
    height: 1em; 
+   text-align: left;
 }
 
 .contact-info {

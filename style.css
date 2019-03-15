@@ -138,4 +138,9 @@ ol li {
     display: inline-block;
     width: 100%;
   }
+  .started,
+  .founders,
+  .beliefs {
+    float: none;
+  }
 }

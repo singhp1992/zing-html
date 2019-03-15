@@ -142,5 +142,10 @@ ol li {
   .founders,
   .beliefs {
     float: none;
+    box-sizing: border-box;
+  }
+  .beliefs {
+    width: 25%;
+    float: none;
   }
 }

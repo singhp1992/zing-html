@@ -134,4 +134,8 @@ ol li {
   .contact-info {
     font-size: 2em;
   };
+  .group {
+    display: inline-block;
+    width: 100%;
+  }
 }

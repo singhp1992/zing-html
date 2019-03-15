@@ -33,6 +33,7 @@ a:link {
 
 a:hover {
   color: lightskyblue;
+  transition: all .3s;
 }
 
 .products {

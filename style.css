@@ -135,3 +135,11 @@ ol li {
   padding-right: 100px;
   display: inline-block;
 }
+
+/* Media queries */
+
+@media (max-width: 500px){
+  body {
+    background-color: blue;
+  };
+}

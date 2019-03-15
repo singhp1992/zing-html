@@ -147,4 +147,7 @@ ol li {
   .beliefs {
     width: 25%;
   }
+  .intro {
+    width: 75%;
+  }
 }

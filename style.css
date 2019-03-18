@@ -112,11 +112,31 @@ ol li {
   padding: 10px 10px;
 } */
 
+.primary {
+  width: 40%;
+}
+
+.secondary,
+.tertiary {
+  width: 33%;
+}
+
 .col {
   display: inline-block;
   width: 50%;
   margin-right: -4px;
   vertical-align: top;
+  /* padding-left: 1em;
+  padding-right: 1em; */
+}
+
+.col {
+  float: left;
+  /* padding-right: 1em; */
+}
+
+.col:last-child {
+  /* padding-right: 0; */
 }
 
 /* the width property is pushing everything to the right (hence float issue) */

@@ -115,6 +115,8 @@ ol li {
 .col {
   display: inline-block;
   width: 50%;
+  margin-right: -4px;
+  vertical-align: top;
 }
 
 /* the width property is pushing everything to the right (hence float issue) */

@@ -132,11 +132,6 @@ ol li {
 
 .col {
   float: left;
-  /* padding-right: 1em; */
-}
-
-.col:last-child {
-  /* padding-right: 0; */
 }
 
 /* the width property is pushing everything to the right (hence float issue) */
@@ -156,9 +151,10 @@ ol li {
 .group {
   width: 900px;
   box-sizing: border-box;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 75px;
+  padding-right: 75px;
   display: inline-block;
+  margin: 0 auto;
 }
 
 /* Media queries */

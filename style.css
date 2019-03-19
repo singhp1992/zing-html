@@ -1,3 +1,5 @@
+/* Base Style */
+
 body {
     font-family: 'Advent Pro';
     text-align: center;
@@ -27,6 +29,21 @@ a {
   color: lightslategray;
 }
 
+ol li {
+  text-align: center;
+  list-style-position: inside;
+  list-style-type: decimal;
+  padding: 10px;
+}
+
+.large {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+
+/* Responsive */
+
 a:link {
   text-decoration-line: none;
 }
@@ -38,6 +55,8 @@ a:hover {
   display: inline-block;
 }
 
+/* About Us Page */
+
 .products {
   border: 2px solid lightslategray;
   display: inline-block;
@@ -48,15 +67,6 @@ a:hover {
 
 .wrapper {
   min-height: calc(100vh - 19px)
-}
-
-.contact-info {
-  margin-top: 1em;
-  border: 2px solid lightslategray;
-  display: inline-block;
-  width: 200px;
-  padding: 0 1em;
-  font-size: 1.5em;
 }
 
 .preetis-box {
@@ -71,16 +81,15 @@ a:hover {
   padding-right: 10%;
 }
 
-ol li {
-  text-align: center;
-  list-style-position: inside;
-  list-style-type: decimal;
-  padding: 10px;
-}
+/* Contact Page */
 
-.large {
+.contact-info {
+  margin-top: 1em;
+  border: 2px solid lightslategray;
+  display: inline-block;
+  width: 200px;
+  padding: 0 1em;
   font-size: 1.5em;
-  font-weight: bold;
 }
 
 /* Columns */

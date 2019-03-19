@@ -105,7 +105,7 @@ a:hover {
 
 .col {
   border: 2px solid lightslategray;
-  flex: 1;
+  /* flex: 1; */
 }
 
 /* .secondary {
@@ -172,4 +172,11 @@ a:hover {
   .intro {
     width: 75%;
   }
+}
+
+@media (min-width: 1070px) {
+
+    .col {
+      flex: 1;
+    }
 }

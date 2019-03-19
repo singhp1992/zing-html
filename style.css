@@ -98,12 +98,13 @@ a:hover {
 
 /* Flexbox */
 
-.group {
+.container {
   display: flex;
 }
 
 .col {
   border: 2px solid lightslategray;
+
 }
 
 /* .secondary {

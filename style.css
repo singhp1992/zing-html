@@ -105,7 +105,7 @@ a:hover {
 
 .col {
   border: 2px solid lightslategray;
-
+  flex: 1;
 }
 
 /* .secondary {

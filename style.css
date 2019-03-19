@@ -102,6 +102,10 @@ a:hover {
   display: flex;
 }
 
+.col {
+  border: 2px solid lightslategray;
+}
+
 /* .secondary {
   margin: 1em 2em;
   border: 2px solid lightslategray;

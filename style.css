@@ -1,3 +1,5 @@
+/* Base Style */
+
 body {
     font-family: 'Advent Pro';
     text-align: center;
@@ -27,6 +29,20 @@ a {
   color: lightslategray;
 }
 
+ol li {
+  text-align: center;
+  list-style-position: inside;
+  list-style-type: decimal;
+  padding: 10px;
+}
+
+.list {
+  margin: 10px 10px;
+}
+
+
+/* Responsive */
+
 a:link {
   text-decoration-line: none;
 }
@@ -38,6 +54,8 @@ a:hover {
   display: inline-block;
 }
 
+/* About Us Page */
+
 .products {
   border: 2px solid lightslategray;
   display: inline-block;
@@ -48,15 +66,6 @@ a:hover {
 
 .wrapper {
   min-height: calc(100vh - 19px)
-}
-
-.contact-info {
-  margin-top: 1em;
-  border: 2px solid lightslategray;
-  display: inline-block;
-  width: 200px;
-  padding: 0 1em;
-  font-size: 1.5em;
 }
 
 .preetis-box {
@@ -71,48 +80,39 @@ a:hover {
   padding-right: 10%;
 }
 
-ol li {
-  text-align: center;
-  list-style-position: inside;
-  list-style-type: decimal;
-  padding: 10px;
-}
-
 .large {
   font-size: 1.5em;
   font-weight: bold;
 }
 
-/* Columns */
+/* Contact Page */
 
-.secondary {
-  margin: 1em 2em;
+.contact-info {
+  margin-top: 1em;
   border: 2px solid lightslategray;
-  width: 25%;
-  float: right;
-  padding: 10px 10px;
-}
-
-.primary {
-  margin: 1em 2em;
-  border: 2px solid lightslategray;
-  width: 25%;
-  padding: 10px 10px;
-  float: left;
-}
-
-.tertiary {
-  border: 2px solid lightslategray;
-  margin: 1em 2em;
   display: inline-block;
-  padding: 10px 10px;
+  width: 200px;
+  padding: 0 1em;
+  font-size: 1.5em;
+}
+
+/* Flexbox */
+
+.container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 90%;
+}
+
+.col {
+  border: 2px solid lightslategray;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 20px;
 }
 
 /* the width property is pushing everything to the right (hence float issue) */
-
-.list {
-  margin: 10px 10px;
-}
 
 /* ClearFix */
 
@@ -153,4 +153,16 @@ ol li {
   .intro {
     width: 75%;
   }
+}
+
+@media (min-width: 1070px) {
+
+    .container {
+      flex-direction: row;
+      width: 60%;
+    }
+    .col {
+      flex: 1;
+      margin: 20px;
+    }
 }

@@ -99,7 +99,7 @@ a:hover {
 /* Flexbox */
 
 .container {
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
   flex-direction: column;
   width: 60%;
@@ -107,6 +107,8 @@ a:hover {
 
 .col {
   border: 2px solid lightslategray;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 /* .secondary {

@@ -102,14 +102,14 @@ a:hover {
   display: inline-flex;
   flex-wrap: wrap;
   flex-direction: column;
-  width: 60%;
+  width: 90%;
 }
 
 .col {
   border: 2px solid lightslategray;
   padding-left: 20px;
   padding-right: 20px;
-  margin: 20px;
+  margin-top: 20px;
 }
 
 /* the width property is pushing everything to the right (hence float issue) */
@@ -159,8 +159,10 @@ a:hover {
 
     .container {
       flex-direction: row;
+      width: 60%;
     }
     .col {
       flex: 1;
+      margin: 20px;
     }
 }

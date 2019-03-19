@@ -36,9 +36,8 @@ ol li {
   padding: 10px;
 }
 
-.large {
-  font-size: 1.5em;
-  font-weight: bold;
+.list {
+  margin: 10px 10px;
 }
 
 
@@ -81,6 +80,11 @@ a:hover {
   padding-right: 10%;
 }
 
+.large {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
 /* Contact Page */
 
 .contact-info {
@@ -92,7 +96,7 @@ a:hover {
   font-size: 1.5em;
 }
 
-/* Columns */
+/* Flexbox */
 
 .secondary {
   margin: 1em 2em;
@@ -118,10 +122,6 @@ a:hover {
 }
 
 /* the width property is pushing everything to the right (hence float issue) */
-
-.list {
-  margin: 10px 10px;
-}
 
 /* ClearFix */
 

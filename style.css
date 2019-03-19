@@ -109,7 +109,7 @@ a:hover {
   border: 2px solid lightslategray;
   padding-left: 20px;
   padding-right: 20px;
-  margin-top: 20px;
+  margin: 20px;
 }
 
 /* the width property is pushing everything to the right (hence float issue) */

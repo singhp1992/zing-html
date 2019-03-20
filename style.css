@@ -9,10 +9,10 @@ body {
 .main-header {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction: row;
 }
 
-.nav {
+.item {
   list-style: none;
   flex: 1;
 }

@@ -9,12 +9,19 @@ body {
 .main-header {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.item {
+.nav {
   list-style: none;
   flex: 1;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 /* .nav {
@@ -159,7 +166,7 @@ a:link {
   }
 }
 
-@media (min-width: 1070px) {
+@media (min-width: 1025px) {
 
     .container {
       flex-direction: row;
@@ -168,5 +175,13 @@ a:link {
     .col {
       flex: 1;
       margin: 20px;
+    }
+
+    .main-header {
+
+    }
+
+    .nav {
+
     }
 }

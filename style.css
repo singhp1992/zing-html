@@ -6,10 +6,9 @@ body {
     padding-bottom: 20px;
 }
 
-.main-header {
+.container-header {
   display: flex;
-  /* flex-wrap: wrap;
-  margin: auto; */
+  flex-wrap: wrap;
 }
 
 .nav {

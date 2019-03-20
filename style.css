@@ -9,10 +9,12 @@ body {
 .main-header {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .nav {
   list-style: none;
+  flex: 1;
 }
 
 /* .nav {
@@ -148,12 +150,6 @@ a:link {
   .group {
     display: inline-block;
     width: 100%;
-  }
-  .started,
-  .founders,
-  .beliefs {
-    float: none;
-    box-sizing: border-box;
   }
   .beliefs {
     width: 25%;

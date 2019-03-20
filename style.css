@@ -28,18 +28,6 @@ li {
   padding: 15px;
 }
 
-/* .nav {
-  display: flex;
-  border-bottom: 2px solid lightslategray;
-  border-top: 2px solid lightslategray;
-  justify-content: space-around;
-  list-style-type: none;
-  margin: 0 auto;
-  padding: 0;
-  font-family: 'Advent Pro';
-  font-size: 1.3em;
-} */
-
 .intro {
   border: 2px solid lightslategray;
   display: inline-block;
@@ -154,7 +142,7 @@ a:link {
 
 /* Media queries */
 
-@media (max-width: 700px){
+@media (max-width: 769px){
   .contact-info {
     font-size: 2em;
   };

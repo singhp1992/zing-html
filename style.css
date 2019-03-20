@@ -6,16 +6,26 @@ body {
     padding-bottom: 20px;
 }
 
-.nav {
+.main-header {
   display: flex;
-  border-bottom: 2px solid lightslategray;
-  border-top: 2px solid lightslategray;
-  justify-content: space-around;
-  list-style-type: none;
-  margin: 0 auto;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nav {
+  list-style: none;
+  flex: 1;
+}
+
+ul {
+  margin: 0;
   padding: 0;
-  font-family: 'Advent Pro';
-  font-size: 1.3em;
+  list-style: none;
+}
+
+li {
+  padding: 15px;
 }
 
 .intro {
@@ -40,7 +50,6 @@ ol li {
   margin: 10px 10px;
 }
 
-
 /* Responsive */
 
 a:link {
@@ -50,7 +59,7 @@ a:link {
 a:hover {
   color: lightskyblue;
   transition: ease-in-out .3s;
-  transform: scale(2);
+  transform: scale(1.3);
   display: inline-block;
 }
 
@@ -133,34 +142,49 @@ a:hover {
 
 /* Media queries */
 
-@media (max-width: 700px){
+@media (min-width: 769px){
   .contact-info {
     font-size: 2em;
-  };
+  }
+
   .group {
     display: inline-block;
     width: 100%;
   }
-  .started,
-  .founders,
-  .beliefs {
-    float: none;
-    box-sizing: border-box;
-  }
+
   .beliefs {
     width: 25%;
   }
+
   .intro {
     width: 75%;
   }
+
+  .main-header,
+  .nav {
+    display: flex;
+  }
+
+  .main-header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  a:hover {
+    color: lightskyblue;
+    transition: ease-in-out .3s;
+    transform: scale(2);
+    display: inline-block;
+  }
 }
 
-@media (min-width: 1070px) {
+@media (min-width: 1025px) {
 
     .container {
       flex-direction: row;
       width: 60%;
     }
+
     .col {
       flex: 1;
       margin: 20px;

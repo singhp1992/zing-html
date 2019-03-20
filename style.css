@@ -9,6 +9,8 @@ body {
 .nav {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
+  border: 2px solid lightslategray;
 }
 
 /* .nav {
@@ -45,19 +47,18 @@ ol li {
   margin: 10px 10px;
 }
 
-
 /* Responsive */
 
 a:link {
   text-decoration-line: none;
 }
 
-a:hover {
+/* a:hover {
   color: lightskyblue;
   transition: ease-in-out .3s;
   transform: scale(2);
   display: inline-block;
-}
+} */
 
 /* About Us Page */
 

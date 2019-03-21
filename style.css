@@ -31,8 +31,9 @@ li {
 .intro {
   border: 2px solid lightslategray;
   display: inline-block;
-  width: 700px;
+  width: 85%;
   margin-top: 1em;
+  padding: 10px;
 }
 
 a {
@@ -59,7 +60,7 @@ a:link {
 a:hover {
   color: lightskyblue;
   transition: ease-in-out .3s;
-  transform: scale(1.3);
+  transform: scale(1.25);
   display: inline-block;
 }
 
@@ -157,7 +158,7 @@ a:hover {
   }
 
   .intro {
-    width: 75%;
+    width: 60%;
   }
 
   .main-header,

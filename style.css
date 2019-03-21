@@ -60,7 +60,7 @@ a:link {
 a:hover {
   color: lightskyblue;
   transition: ease-in-out .3s;
-  transform: scale(1.3);
+  transform: scale(1.25);
   display: inline-block;
 }
 

@@ -162,6 +162,10 @@ a:hover {
     width: 60%;
   }
 
+  .contact-info {
+    font-size: 1.5em;
+  }
+
   .main-header,
   .nav {
     display: flex;

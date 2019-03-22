@@ -157,7 +157,8 @@ a:hover {
     width: 25%;
   }
 
-  .intro {
+  .intro,
+  .contact-info {
     width: 60%;
   }
 
@@ -174,7 +175,7 @@ a:hover {
   a:hover {
     color: lightskyblue;
     transition: ease-in-out .3s;
-    transform: scale(2);
+    transform: scale(1.25);
     display: inline-block;
   }
 }

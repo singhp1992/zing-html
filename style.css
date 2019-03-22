@@ -123,12 +123,12 @@ a:hover {
 }
 
 /* ClearFix */
-
+/* 
 .group:after {
   content: "";
   display: table;
   clear: both;
-}
+} */
 
 .group {
   width: 50%;

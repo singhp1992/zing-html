@@ -122,8 +122,6 @@ a:hover {
   margin-top: 20px;
 }
 
-/* the width property is pushing everything to the right (hence float issue) */
-
 /* ClearFix */
 
 .group:after {

@@ -1,4 +1,6 @@
 //adding randoming color function to add to text later on
+var css = '';
+var rgbColor;
 
 function random() {
     return Math.floor(Math.random() * 256);

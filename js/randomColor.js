@@ -11,3 +11,8 @@ function randomColor() {
     color += random() + ')';
     return color
 }
+
+for ( var i = 1; i <= 10; i+=1) {
+    rgbColor = randomColor();
+
+}

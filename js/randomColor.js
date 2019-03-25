@@ -14,5 +14,7 @@ function randomColor() {
 
 for ( var i = 1; i <= 10; i+=1) {
     rgbColor = randomColor();
-
+    css += rgbColor
 }
+
+console.log(css)

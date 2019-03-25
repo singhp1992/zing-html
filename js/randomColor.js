@@ -3,4 +3,7 @@
 function randomColor() {
     var color = 'rgb(';
     color += random() + ',';
+    color += random() + ',';
+    color += random() + ')';
+    return color
 }

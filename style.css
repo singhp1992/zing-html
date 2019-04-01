@@ -4,6 +4,7 @@ body {
     font-family: 'Advent Pro';
     text-align: center;
     padding-bottom: 20px;
+    /* background-image: url(images/dot.svg); */
 }
 
 .main-header {

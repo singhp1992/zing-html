@@ -142,8 +142,10 @@ a:hover {
 /* Media queries */
 
 @media (min-width: 769px){
+  .contact-info,
+  .products,
   .contact-info {
-    font-size: 2em;
+    font-size: 1.3em;
   }
 
   .group {
@@ -158,10 +160,6 @@ a:hover {
   .intro,
   .contact-info {
     width: 60%;
-  }
-
-  .contact-info {
-    font-size: 1.5em;
   }
 
   .main-header,

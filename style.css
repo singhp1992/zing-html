@@ -29,7 +29,7 @@ li {
 }
 
 .intro {
-  border: 2px solid lightslategray;
+  border: 2px dotted lightslategray;
   display: inline-block;
   width: 85%;
   margin-top: 1em;
@@ -67,11 +67,11 @@ a:hover {
 /* About Us Page */
 
 .products {
-  border: 2px solid lightslategray;
+  border: 2px dotted lightslategray;
   display: inline-block;
   width: 200px;
   margin-top: 1em;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .wrapper {
@@ -99,7 +99,7 @@ a:hover {
 
 .contact-info {
   margin-top: 1em;
-  border: 2px solid lightslategray;
+  border: 2px dotted lightslategray;
   display: inline-block;
   width: 200px;
   padding: 0 1em;
@@ -116,19 +116,11 @@ a:hover {
 }
 
 .col {
-  border: 2px solid lightslategray;
+  border: 2px dotted lightslategray;
   padding-left: 20px;
   padding-right: 20px;
   margin-top: 20px;
 }
-
-/* ClearFix */
-/* 
-.group:after {
-  content: "";
-  display: table;
-  clear: both;
-} */
 
 .group {
   width: 50%;
@@ -142,8 +134,10 @@ a:hover {
 /* Media queries */
 
 @media (min-width: 769px){
+  .contact-info,
+  .products,
   .contact-info {
-    font-size: 2em;
+    font-size: 1.3em;
   }
 
   .group {
@@ -158,10 +152,6 @@ a:hover {
   .intro,
   .contact-info {
     width: 60%;
-  }
-
-  .contact-info {
-    font-size: 1.5em;
   }
 
   .main-header,

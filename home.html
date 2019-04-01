@@ -6,32 +6,43 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
     <link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 </head>
 
 <script>
-        var css = '';
-        var rgbColor;
+        // var css = '';
+        // var rgbColor;
 
-        function random() {
-            return Math.floor(Math.random() * 256);
-        }
+        // function random() {
+        //     return Math.floor(Math.random() * 256);
+        // }
 
-        function randomColor() {
-            var color = 'rgb(';
-            color += random() + ',';
-            color += random() + ',';
-            color += random() + ')';
-            return color
-        }
+        // function randomColor() {
+        //     var color = 'rgb(';
+        //     color += random() + ',';
+        //     color += random() + ',';
+        //     color += random() + ')';
+        //     return color
+        // }
 
-        for (var i = 1; i <= 10; i += 1) {
-            rgbColor = randomColor();
-            css += rgbColor
-        }  
+        // for (var i = 1; i <= 10; i += 1) {
+        //     rgbColor = randomColor();
+        //     css += rgbColor
+        // }  
+
+        function getRandomColor() {
+                var letters = '0123456789ABCDEF'.split('');
+                var color = '#';
+                for (var i = 0; i < 6; i++) {
+                    color += letters[Math.floor(Math.random() * 16)];
+                }
+                $('a').css('color', color);
+            }
 </script>
 
 <body>
     <div class="wrapper">
+        <button onClick="getRandomColor()">Click for random colors!</button>
         <header class="main-header">
             <h1>Welcome to ZiNG</h1>
             <ul class="nav">

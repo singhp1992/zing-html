@@ -8,6 +8,28 @@
     <link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
 </head>
 
+<script>
+        var css = '';
+        var rgbColor;
+
+        function random() {
+            return Math.floor(Math.random() * 256);
+        }
+
+        function randomColor() {
+            var color = 'rgb(';
+            color += random() + ',';
+            color += random() + ',';
+            color += random() + ')';
+            return color
+        }
+
+        for (var i = 1; i <= 10; i += 1) {
+            rgbColor = randomColor();
+            css += rgbColor
+        }  
+</script>
+
 <body>
     <div class="wrapper">
         <header class="main-header">

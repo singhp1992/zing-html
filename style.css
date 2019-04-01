@@ -29,12 +29,11 @@ li {
 }
 
 .intro {
-  border: 2px solid lightslategray;
+  border: 2px dotted lightslategray;
   display: inline-block;
   width: 85%;
   margin-top: 1em;
   padding: 10px;
-  border-style: dotted;
 }
 
 a {
@@ -122,14 +121,6 @@ a:hover {
   padding-right: 20px;
   margin-top: 20px;
 }
-
-/* ClearFix */
-/* 
-.group:after {
-  content: "";
-  display: table;
-  clear: both;
-} */
 
 .group {
   width: 50%;

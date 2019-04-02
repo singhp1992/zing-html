@@ -7,7 +7,16 @@
         <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
         <link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
     </head>
-
+    <script>
+        function getRandomColor() {
+            var letters = '0123456789ABCDEF'.split('');
+            var color = '#';
+            for (var i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            $('a').css('color', color);
+        }
+    </script>
     <body>
         <header class="main-header">
             <h1>Welcome to ZiNG</h1>

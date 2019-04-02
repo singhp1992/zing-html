@@ -6,8 +6,18 @@
         <link rel="stylesheet" href="style.css">
         <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
         <link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
     </head>
-
+    <script>
+        function getRandomColor() {
+            var letters = '0123456789ABCDEF'.split('');
+            var color = '#';
+            for (var i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            $('a').css('color', color);
+        }
+    </script>
     <body>
         <header class="main-header">
             <h1>Welcome to ZiNG</h1>
@@ -25,6 +35,8 @@
             </div>
         </main>
         
+        <button class="colorize" onClick="getRandomColor()">Click for random colors!</button>
+
         <footer>
             <p> &copy; Made with Love by Preeti Singh</p>
         </footer>

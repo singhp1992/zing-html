@@ -15,12 +15,12 @@
             for (var i = 0; i < 6; i++) {
                 color += letters[Math.floor(Math.random() * 16)];
             }
-            $('a').css('color', color);
+            $('.welcome').css('color', color);
         }
     </script>
     <body>
         <header class="main-header">
-            <h1>Welcome to ZiNG</h1>
+            <h1 class="welcome" onmouseover="getRandomColor()">Welcome to ZiNG</h1>
             <ul class="nav">
                 <li><a href="./home.html">Home</a></li>
                 <li><a href="./products.html">Products</a></li>
@@ -34,9 +34,7 @@
                 <h3>All Products</h3>
             </div>
         </main>
-        
-        <button class="colorize" onClick="getRandomColor()">Click for random colors!</button>
-
+    
         <footer>
             <p> &copy; Made with Love by Preeti Singh</p>
         </footer>

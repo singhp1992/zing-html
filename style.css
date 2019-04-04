@@ -4,6 +4,8 @@ body {
     font-family: 'Advent Pro';
     text-align: center;
     padding-bottom: 60px;
+    min-height: 100%;
+    position: relative;
     /* background-image: url(images/dot.svg); */
 }
 

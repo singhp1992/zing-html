@@ -3,9 +3,9 @@
 body {
     font-family: 'Advent Pro';
     text-align: center;
-    padding-bottom: 60px;
-    min-height: 100%;
     position: relative;
+    display: flex;
+    flex-direction: column;
     /* background-image: url(images/dot.svg); */
 }
 
@@ -53,15 +53,17 @@ ol li {
 .list {
   margin: 10px 10px;
 }
+/* Footer */
+
+html, body {
+  height: 100%
+}
+.content {
+  flex: 1 0 auto;
+}
 
 .foot {
-  position: absolute;
-  right: 0;
-  /* bottom: 0; */
-  left: 0;
-  padding: 1rem;
-  /* background-color: #efefef; */
-  text-align: center;
+  flex-shrink:0
 }
 
 /* Responsive */

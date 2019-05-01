@@ -6,7 +6,7 @@ body {
     position: relative;
     display: flex;
     flex-direction: column;
-    background-color: rgb(43, 43, 43);
+    background-color: rgb(53, 100, 57);
     color: rgb(202, 203, 255);
     /* background-image: url(images/dot.svg); */
 }

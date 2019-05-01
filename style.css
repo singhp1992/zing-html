@@ -6,6 +6,7 @@ body {
     position: relative;
     display: flex;
     flex-direction: column;
+    background-color: slategrey;
     /* background-image: url(images/dot.svg); */
 }
 

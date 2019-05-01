@@ -42,7 +42,7 @@ li {
 }
 
 a {
-  color: lightslategray;
+  color: rgb(22, 56, 34);
 }
 
 ol li {
@@ -76,7 +76,7 @@ a:link {
 }
 
 a:hover {
-  color: rgb(123, 189, 0);
+  color: white;
   transition: ease-in-out .3s;
   transform: scale(1.25);
   display: inline-block;

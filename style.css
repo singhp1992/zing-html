@@ -7,7 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: rgb(53, 100, 57);
-    color: rgb(202, 203, 255);
+    color: whitesmoke;
     /* background-image: url(images/dot.svg); */
 }
 
@@ -66,7 +66,8 @@ html, body {
 }
 
 .foot {
-  flex-shrink:0
+  flex-shrink:0;
+  color: black;
 }
 
 /* Responsive */

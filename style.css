@@ -76,7 +76,7 @@ a:link {
 }
 
 a:hover {
-  color: lightskyblue;
+  color: rgb(123, 189, 0);
   transition: ease-in-out .3s;
   transform: scale(1.25);
   display: inline-block;
@@ -188,7 +188,7 @@ a:hover {
   }
 
   a:hover {
-    color: lightskyblue;
+    color: white;
     transition: ease-in-out .3s;
     transform: scale(1.25);
     display: inline-block;

@@ -6,7 +6,8 @@ body {
     position: relative;
     display: flex;
     flex-direction: column;
-    /* background-image: url(images/dot.svg); */
+    background-color: rgb(53, 100, 57);
+    color: white;
 }
 
 .main-header {
@@ -32,15 +33,16 @@ li {
 }
 
 .intro {
-  border: 2px dotted lightslategray;
+  border: 2px dotted rgb(22, 56, 34);
   display: inline-block;
   width: 85%;
   margin-top: 1em;
   padding: 10px;
+  font-size: 1.1em;
 }
 
 a {
-  color: lightslategray;
+  color: rgb(22, 56, 34);
 }
 
 ol li {
@@ -63,7 +65,8 @@ html, body {
 }
 
 .foot {
-  flex-shrink:0
+  flex-shrink: 0;
+  color: black;
 }
 
 /* Responsive */
@@ -73,7 +76,7 @@ a:link {
 }
 
 a:hover {
-  color: lightskyblue;
+  color: white;
   transition: ease-in-out .3s;
   transform: scale(1.25);
   display: inline-block;
@@ -185,7 +188,7 @@ a:hover {
   }
 
   a:hover {
-    color: lightskyblue;
+    color: white;
     transition: ease-in-out .3s;
     transform: scale(1.25);
     display: inline-block;

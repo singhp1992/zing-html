@@ -90,7 +90,7 @@ a:hover {
 /* About Us Page */
 
 .products {
-  border: 2px dotted lightslategray;
+  border: 2px dotted black;
   display: inline-block;
   width: 200px;
   margin-top: 1em;

@@ -7,7 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #71bc78;
-    color: white;
+    /* color: white; */
 }
 
 .main-header {

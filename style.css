@@ -35,6 +35,10 @@ li {
   padding: 15px;
 }
 
+a {
+  color: black;
+}
+
 .intro {
   border: 2px dotted white;
   display: inline-block;

@@ -16,6 +16,10 @@ body {
   justify-content: center;
 }
 
+.welcome {
+  color: white;
+}
+
 .nav {
   list-style: none;
   flex: 1;
@@ -32,7 +36,7 @@ li {
 }
 
 .intro {
-  border: 2px dotted black;
+  border: 2px dotted white;
   display: inline-block;
   width: 85%;
   margin-top: 1em;
@@ -40,9 +44,8 @@ li {
   font-size: 1.1em;
 }
 
-a,
-.black-text {
-  color:black;
+.white-text{
+  color:white;
 }
 
 ol li {

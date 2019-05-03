@@ -139,7 +139,7 @@ a:hover {
 }
 
 .col {
-  border: 2px dotted lightslategray;
+  border: 2px dotted black;
   padding-left: 20px;
   padding-right: 20px;
   margin-top: 20px;

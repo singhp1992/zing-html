@@ -7,7 +7,6 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #71bc78;
-    color: white;
 }
 
 .main-header {
@@ -15,6 +14,10 @@ body {
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
+}
+
+.white-text {
+  color: white;
 }
 
 .nav {
@@ -32,18 +35,17 @@ li {
   padding: 15px;
 }
 
+a {
+  color: black;
+}
+
 .intro {
-  border: 2px dotted black;
+  border: 2px dotted white;
   display: inline-block;
   width: 85%;
   margin-top: 1em;
   padding: 10px;
   font-size: 1.1em;
-}
-
-a,
-.black-text {
-  color:black;
 }
 
 ol li {

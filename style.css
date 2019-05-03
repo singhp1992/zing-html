@@ -6,7 +6,7 @@ body {
     position: relative;
     display: flex;
     flex-direction: column;
-    background-color: rgb(53, 100, 57);
+    background-color: #71bc78;
     color: white;
 }
 

@@ -126,11 +126,12 @@ a:hover {
 
 .contact-info {
   margin-top: 1em;
-  border: 2px dotted black;
+  border: 2px dotted white;
   display: inline-block;
   width: 200px;
   padding: 0 1em;
   font-size: 1.5em;
+  color: white;
 }
 
 /* Flexbox */

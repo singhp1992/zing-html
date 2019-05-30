@@ -1,8 +1,8 @@
 /* Base Style */
 
 body {
-  font-family: 'Open Sans Condensed', sans-serif;    
-  text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
     position: relative;
     display: flex;
     flex-direction: column;

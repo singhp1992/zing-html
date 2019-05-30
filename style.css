@@ -60,11 +60,13 @@ ol li {
 }
 
 .landing-header {
-  position: 1px 2px;
+  position: absolute;
+  left: 250px;
+  top: 300px;
 }
 
 .rotated {
-  transform: rotate(-20deg);
+  transform: rotate(-15deg);
 }
 /* Footer */
 

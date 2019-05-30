@@ -231,5 +231,12 @@ a:hover {
     top: 115px;
     transform: rotate(26deg);
   }
+
+    .landing-products {
+    position: absolute;
+    left: 580px;
+    top: 115px;
+    transform: rotate(26deg);
+  }
 }
 

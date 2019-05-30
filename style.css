@@ -82,8 +82,6 @@ a:link {
 
 a:hover {
   color: white;
-  transition: ease-in-out .3s;
-  transform: scale(1.25);
   display: inline-block;
 }
 
@@ -196,8 +194,6 @@ a:hover {
 
   a:hover {
     color: white;
-    transition: ease-in-out .3s;
-    transform: scale(1.25);
     display: inline-block;
   }
 }

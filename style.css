@@ -60,21 +60,6 @@ ol li {
   margin: 10px 10px;
 }
 
-/* Landing Page */
-
-.landing-header {
-  position: absolute;
-  left: 250px;
-  top: 300px;
-  transform: rotate(-9.5deg);
-}
-
-.landing-home {
-  position: absolute;
-  left: 500px;
-  top: 100px;
-  transform: rotate(-9.5deg);
-}
 
 /* Footer */
 
@@ -230,4 +215,21 @@ a:hover {
       flex: 1;
       margin: 20px;
     }
+
+    /* Landing Page */
+
+  .landing-header {
+    position: absolute;
+    left: 250px;
+    top: 300px;
+    transform: rotate(-9.5deg);
+  }
+
+  .landing-home {
+    position: absolute;
+    left: 500px;
+    top: 100px;
+    transform: rotate(-9.5deg);
+  }
 }
+

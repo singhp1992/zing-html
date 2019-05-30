@@ -227,9 +227,9 @@ a:hover {
 
   .landing-home {
     position: absolute;
-    left: 500px;
-    top: 100px;
-    transform: rotate(-9.5deg);
+    left: 580px;
+    top: 115px;
+    transform: rotate(26deg);
   }
 }
 

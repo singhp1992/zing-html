@@ -1,8 +1,8 @@
 /* Base Style */
 
 body {
-    font-family: 'Advent Pro';
-    text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;    
+  text-align: center;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -66,7 +66,7 @@ ol li {
 }
 
 .rotated {
-  transform: rotate(-15deg);
+  transform: rotate(-9.5deg);
 }
 /* Footer */
 

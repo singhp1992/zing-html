@@ -245,5 +245,12 @@ a:hover {
     top: 285px;
     transform: rotate(40deg);
   }
+
+  .landing-contact {
+    position: absolute;
+    left: 575px;
+    top: 375px;
+    transform: rotate(-3deg);
+  }
 }
 

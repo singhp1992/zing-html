@@ -238,5 +238,12 @@ a:hover {
     top: 195px;
     transform: rotate(-35deg);
   }
+
+  .landing-about {
+    position: absolute;
+    left: 565px;
+    top: 195px;
+    transform: rotate(-35deg);
+  }
 }
 

@@ -8,6 +8,7 @@ body {
     flex-direction: column;
     background: url('images/polygon.jpg');
     background-size: cover;
+    color: white;
   }
 
 .main-header {
@@ -15,10 +16,6 @@ body {
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
-}
-
-.white-text {
-  color: white;
 }
 
 .nav {
@@ -37,7 +34,7 @@ li {
 }
 
 a {
-  color: black;
+  color: white;
 }
 
 .intro {
@@ -80,11 +77,6 @@ a:link {
   text-decoration-line: none;
 }
 
-a:hover {
-  color: white;
-  display: inline-block;
-}
-
 .colorize {
   border-style: dotted;
 }
@@ -97,7 +89,6 @@ a:hover {
   width: 200px;
   margin-top: 1em;
   font-size: 1em;
-  color: white;
 }
 
 .wrapper {
@@ -130,7 +121,6 @@ a:hover {
   width: 200px;
   padding: 0 1em;
   font-size: 1.5em;
-  color: white;
 }
 
 /* Flexbox */
@@ -147,7 +137,6 @@ a:hover {
   padding-left: 20px;
   padding-right: 20px;
   margin-top: 20px;
-  color: white;
 }
 
 .group {
@@ -190,11 +179,6 @@ a:hover {
   .main-header {
     flex-direction: column;
     align-items: center;
-  }
-
-  a:hover {
-    color: white;
-    display: inline-block;
   }
 }
 

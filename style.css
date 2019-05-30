@@ -58,6 +58,14 @@ ol li {
 .list {
   margin: 10px 10px;
 }
+
+.landing {
+
+}
+
+.rotated {
+  transform: rotate(-20deg);
+}
 /* Footer */
 
 html, body {

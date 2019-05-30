@@ -6,8 +6,8 @@ body {
     position: relative;
     display: flex;
     flex-direction: column;
-    background-color: #3d7c47;
-}
+    background: url('images/polygon.jpg');
+  }
 
 .main-header {
   display: flex;

@@ -1,13 +1,14 @@
 /* Base Style */
 
 body {
-    font-family: 'Advent Pro';
+    font-family: 'Poiret One', sans-serif;
     text-align: center;
     position: relative;
     display: flex;
     flex-direction: column;
-    background-color: #3d7c47;
-}
+    background: url('images/polygon.jpg');
+    background-size: cover;
+  }
 
 .main-header {
   display: flex;
@@ -58,6 +59,7 @@ ol li {
 .list {
   margin: 10px 10px;
 }
+
 /* Footer */
 
 html, body {
@@ -80,14 +82,11 @@ a:link {
 
 a:hover {
   color: white;
-  transition: ease-in-out .3s;
-  transform: scale(1.25);
   display: inline-block;
 }
 
 .colorize {
   border-style: dotted;
-  font-family: 'Advent Pro';
 }
 
 /* About Us Page */
@@ -195,8 +194,6 @@ a:hover {
 
   a:hover {
     color: white;
-    transition: ease-in-out .3s;
-    transform: scale(1.25);
     display: inline-block;
   }
 }
@@ -212,4 +209,42 @@ a:hover {
       flex: 1;
       margin: 20px;
     }
+
+    /* Landing Page */
+
+  .landing-header {
+    position: absolute;
+    left: 298px;
+    top: 185px;
+    transform: rotate(5deg);
+  }
+
+  .landing-home {
+    position: absolute;
+    left: 580px;
+    top: 115px;
+    transform: rotate(26deg);
+  }
+
+    .landing-products {
+    position: absolute;
+    left: 565px;
+    top: 195px;
+    transform: rotate(-35deg);
+  }
+
+  .landing-about {
+    position: absolute;
+    left: 575px;
+    top: 285px;
+    transform: rotate(40deg);
+  }
+
+  .landing-contact {
+    position: absolute;
+    left: 575px;
+    top: 375px;
+    transform: rotate(-3deg);
+  }
 }
+

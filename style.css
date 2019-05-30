@@ -241,9 +241,9 @@ a:hover {
 
   .landing-about {
     position: absolute;
-    left: 565px;
-    top: 195px;
-    transform: rotate(-35deg);
+    left: 575px;
+    top: 285px;
+    transform: rotate(40deg);
   }
 }
 

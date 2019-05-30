@@ -59,15 +59,22 @@ ol li {
   margin: 10px 10px;
 }
 
+/* Landing Page */
+
 .landing-header {
   position: absolute;
   left: 250px;
   top: 300px;
-}
-
-.rotated {
   transform: rotate(-9.5deg);
 }
+
+.landing-home {
+  position: absolute;
+  left: 500px;
+  top: 100px;
+  transform: rotate(-9.5deg);
+}
+
 /* Footer */
 
 html, body {

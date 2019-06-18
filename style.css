@@ -33,12 +33,15 @@ li {
   padding: 15px;
 }
 
+.nav li a:hover {
+  border-bottom: 1px solid white;
+}
+
 a {
   color: white;
 }
 
 .intro {
-  border: 2px dotted white;
   display: inline-block;
   width: 85%;
   margin-top: 1em;
@@ -78,13 +81,12 @@ a:link {
 }
 
 .colorize {
-  border-style: dotted;
+  border-style: solid;
 }
 
 /* About Us Page */
 
 .products {
-  border: 2px dotted white;
   display: inline-block;
   width: 200px;
   margin-top: 1em;
@@ -116,7 +118,6 @@ a:link {
 
 .contact-info {
   margin-top: 1em;
-  border: 2px dotted white;
   display: inline-block;
   width: 200px;
   padding: 0 1em;
@@ -133,7 +134,6 @@ a:link {
 }
 
 .col {
-  border: 2px dotted white;
   padding-left: 20px;
   padding-right: 20px;
   margin-top: 20px;

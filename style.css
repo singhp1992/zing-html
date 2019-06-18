@@ -38,7 +38,7 @@ a {
 }
 
 .intro {
-  /* border: 2px dotted white; */
+  border: 2px solid white;
   display: inline-block;
   width: 85%;
   margin-top: 1em;

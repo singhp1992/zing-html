@@ -120,7 +120,7 @@ a:link {
 
 .contact-info {
   margin-top: 1em;
-  border: 2px dotted white;
+  border: 2px solid white;
   display: inline-block;
   width: 200px;
   padding: 0 1em;

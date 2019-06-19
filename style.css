@@ -80,6 +80,11 @@ a:link {
   text-decoration-line: none;
 }
 
+.bigger:hover {
+  font-size: 1.5em;
+
+}
+
 .colorize {
   border-style: solid;
 }

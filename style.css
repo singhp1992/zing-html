@@ -71,7 +71,7 @@ html, body {
 
 .foot {
   flex-shrink: 0;
-  color: black;
+  color: white;
 }
 
 /* Responsive */
@@ -81,13 +81,16 @@ a:link {
 }
 
 .bigger:hover {
-  font-size: 1.5em;
+  font-size: 1.2em;
   transition: all .5s ease;
-
 }
 
 .colorize {
   border-style: solid;
+}
+
+.shadow {
+  text-shadow: 2px 2px #ff7b7b;
 }
 
 /* About Us Page */

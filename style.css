@@ -71,7 +71,7 @@ html, body {
 
 .foot {
   flex-shrink: 0;
-  color: black;
+  color: white;
 }
 
 /* Responsive */
